@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		html, body {
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		.wrap {
+			width: 100%;
+		}
+		header {
+			width: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 2;
+		}
+		header img {
+			display: block;
+		}
+		img {
+			width: 100%;
+			display: none;
+		}
+		img.active {
+			display: block;
+		}
+
+	</style>
+</head>
+<body>
+	<header></header>
+	<div class="wrap"></div>
+
+	<script>
+		window.Main = window.Main || {};
+		Main.img_folder = 'img'; // change if needed
+		Main.headerImgName = 'header.png'; // change if needed
+
+		//Example: Main.imgs = ['img1.jpg','img2.jpg','img3.jpg'];
+		Main.imgs = [];
+	</script>
+	<script src="js/all.js"></script>
+</body>
+</html>
