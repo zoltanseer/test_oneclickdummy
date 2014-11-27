@@ -1,11 +1,11 @@
-To Use:
+##To Use:
 	- Copy the images to the 'img' folder
 	- Open the 'index.html' and on the bottom, insert the image names in the 'Main.imgs' (like the example)
 	- Save it.
 	* for header img: set the filename in Main.headerImgName variable
 
 
-Buttons/Keys:
+##Buttons/Keys:
 	* Next image:
 		- Left mouse button
 		- Right arrow
